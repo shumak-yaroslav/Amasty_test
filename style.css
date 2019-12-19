@@ -1,0 +1,9 @@
+.id{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+}
+.id>*:first-child {
+    align-self: stretch;
+}
